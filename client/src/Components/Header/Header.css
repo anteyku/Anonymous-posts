@@ -1,0 +1,47 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+}
+
+.nav__logo-text {
+    cursor: pointer;
+}
+
+.nav__logo > div > span {
+    color: #FF0000;
+}
+
+.nav__logo {
+    flex: 1;
+    font-family: 'Rochester', cursive;
+    padding-left: 30px;
+}
+
+.nav__add-post {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 28px;
+    text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.4);
+    padding-right: 30px;
+}
+
+.reset-btn {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding-right: 30px;
+}
+.login-btn {
+}
+@media only screen and (max-width: 380px) {
+    .nav{
+        font-size: 18px;
+    }
+}

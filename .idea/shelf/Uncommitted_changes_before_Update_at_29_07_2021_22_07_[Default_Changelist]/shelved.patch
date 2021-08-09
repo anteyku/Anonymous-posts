@@ -1,0 +1,39 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># postapp\r\nOther desc\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision d062d314c297690f62f2ebb929f0a50c857048d8)
++++ b/README.md	(date 1627583677520)
+@@ -1,2 +1,3 @@
+ # postapp
+ Other desc
++#### Purpose create app during 6 hours
+\ No newline at end of file
+Index: server/server.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/server/server.js b/server/server.js
+new file mode 100644
+--- /dev/null	(date 1627584441075)
++++ b/server/server.js	(date 1627584441075)
+@@ -0,0 +1,13 @@
++const express = require('express')
++
++
++
++const app = express()
++
++app.use(express.json())
++app.get('/', (req, res) => {
++    res.send('Api running')
++})
++
++
++const PORT = process.env.PORT || 5000
+\ No newline at end of file

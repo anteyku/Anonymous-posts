@@ -1,0 +1,39 @@
+{
+  "name": "postapp",
+  "version": "1.0.0",
+  "description": "app, js, react, nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon server/server.js",
+    "frontend": "npm start ---prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikita-Ma/postapp.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Nik, Vlad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikita-Ma/postapp/issues"
+  },
+  "homepage": "https://github.com/Nikita-Ma/postapp#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "concurrently": "^6.2.0",
+    "connect-mongodb-session": "^3.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.13.5",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.12"
+  }
+}

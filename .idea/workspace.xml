@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38116523-8ed8-4f0c-b2a5-02e39f1da606" name="Default Changelist" comment="added redux in project &amp;&amp; show modal">
+      <change afterPath="$PROJECT_DIR$/client/src/action/PostActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/CreatePost/CreatePost.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/CreatePost/CreatePost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Login/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Login/Login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/RegisterPopup/Register.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/RegisterPopup/Register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/RegisterPopup/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/RegisterPopup/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/action/Post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/PostReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/PostReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="dev" />
+                    <option name="lastUsedInstant" value="1627585665" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1627585664" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="ProjectId" id="1w0BOD9HubCZ0XgnVEW12HT1BL8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\postapp\client\src" />
+      <recent name="D:\github\postapp\client\src\Components\Header" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.frontend">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="frontend" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="frontend" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.frontend" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38116523-8ed8-4f0c-b2a5-02e39f1da606" name="Default Changelist" comment="" />
+      <created>1627585596030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627585596030</updated>
+      <workItem from="1627585599689" duration="2227000" />
+      <workItem from="1627595768424" duration="751000" />
+      <workItem from="1627668808548" duration="15837000" />
+      <workItem from="1627685928648" duration="518000" />
+      <workItem from="1627707650895" duration="2205000" />
+      <workItem from="1627727820972" duration="1755000" />
+      <workItem from="1627760017441" duration="5509000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial structure">
+      <created>1627586109614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627586109614</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update docs">
+      <created>1627596508563</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627596508563</updated>
+    </task>
+    <task id="LOCAL-00003" summary="del other files">
+      <created>1627670044760</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627670044760</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create layout Post &amp;&amp; Header">
+      <created>1627676062660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627676062660</updated>
+    </task>
+    <task id="LOCAL-00005" summary="create (auth &amp;&amp; login &amp;&amp; post) popup">
+      <created>1627681422336</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1627681422336</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added redux in project &amp;&amp; show modal">
+      <created>1627683911993</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1627683911993</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial structure" />
+    <MESSAGE value="update docs" />
+    <MESSAGE value="del other files" />
+    <MESSAGE value="create layout Post &amp;&amp; Header" />
+    <MESSAGE value="create (auth &amp;&amp; login &amp;&amp; post) popup" />
+    <MESSAGE value="added redux in project &amp;&amp; show modal" />
+    <option name="LAST_COMMIT_MESSAGE" value="added redux in project &amp;&amp; show modal" />
+  </component>
+</project>
